@@ -1,0 +1,30 @@
+.container {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  button {
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  li.done {
+    text-decoration: line-through;
+  }
+  
+  .delete-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
